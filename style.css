@@ -1,0 +1,49 @@
+#bgimage{
+    height:600px;
+    /* border:5px dotted rgb(44, 152, 214); */
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/372/906/339/new-york-city-skyline-sunrise-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 600px;
+}
+#imgdes{
+    /* margin: 200px 200px 200px 200px; */
+    height: 40px;
+    width: 30%;
+}
+/* #block{
+    height: 80px;
+    width: 100%;
+} */
+
+.cards{
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
+    height: 230px;
+    width: 90%;
+    padding: 10px 10px 10px 10px;
+    /* margin: 5px 8px 5px 8px; */
+    /* border: 1px solid gray; */
+    margin-left: 60px;
+    
+}
+#Main{
+    display: flex;
+    justify-content: space-around;
+    /* border: 3px dotted blue; */
+    height: 300px;
+    
+}
+.Subcont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.subclause{
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+}
